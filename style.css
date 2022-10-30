@@ -1,0 +1,156 @@
+main > div > p{
+
+	 display: flex;
+	 justify-content: space-between;
+	 font-size: 24; 
+	 font-family: myRoboto;
+	 color: white;
+
+
+}
+
+main > div > h2{
+
+	 display: flex;
+	 justify-content: space-between;
+	 font-size: 24; 
+	 font-family: myRoboto;
+	 color: white;
+
+
+}
+
+ul{
+
+	 font-size: 24; 
+	 font-family: myRoboto;
+	 color: white;
+
+
+
+
+
+
+
+}
+
+a{text-decoration: none;  font-size: 12; font-family: myRoboto;}
+a:link{color: indigo;  font-size: 12; font-family: myRoboto;}
+a:hover {color:  green; background-color: #945687;  font-size: 12; font-family: myRoboto;}
+a:visited{color: red; background-color: #451133;  font-size: 12; font-family: myRoboto;}
+a:active{color: aqua; background-color: #dddddd;  font-size: 12 ; font-family: myRoboto;}
+
+
+
+
+main > img{
+
+	 display: flex;
+	 justify-content: space-between;
+
+
+
+}
+
+
+
+
+nav > a {
+  margin-right: 5em;
+}
+
+img{
+
+	display:  flex;
+	justify-content: space-between;
+	width: 100%;
+
+
+}
+footer{
+
+	text-align: center;
+
+}
+
+
+
+
+
+@font-face{
+
+	font-family: myRoboto;
+	src:  url(rob-thin.ttf);
+
+
+	
+}
+
+
+
+
+
+@media (min-width: 30em){
+
+	body{
+
+		background: blue;
+
+	}
+
+	nav {
+    flex-direction: row;
+  }
+
+    nav > a {
+    margin-right: 1em;
+  }
+
+	main{
+
+		display: grid;
+  	grid-template-columns: minmax(100%, 1fr);
+
+
+
+
+
+	
+
+	}
+
+	button {display: block;}
+
+
+
+	
+
+
+}
+
+@media (min-width: 70em){
+
+	body{
+
+		background: green;
+
+	}
+
+	main{
+
+		display: grid;
+	  grid-template-columns: repeat(2, 1fr);
+	  
+	  gap: 1.9em;
+
+
+
+	}
+
+
+
+
+}
+
+
+
